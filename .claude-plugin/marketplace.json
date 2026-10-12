@@ -1,0 +1,5 @@
+{
+  "name": "santi-mods",
+  "owner": { "name": "Santiago" },
+  "plugins": [{ "name": "prompt-enhancer", "source": "./" }]
+}

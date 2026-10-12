@@ -1,0 +1,6 @@
+{
+  "name": "prompt-enhancer",
+  "version": "0.3.1",
+  "description": "Rewrites a rough prompt into a clear one, from the band above the prompt (ctrl+x tab) or /enhance",
+  "types": "./types/index.d.ts"
+}
