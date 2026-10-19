@@ -1,6 +1,8 @@
 {
   "name": "prompt-enhancer",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Rewrites a rough prompt into a clear one, from the band above the prompt (ctrl+x tab) or /enhance",
+  "author": { "name": "Santiago Boxiga" },
+  "license": "MIT",
   "types": "./types/index.d.ts"
 }

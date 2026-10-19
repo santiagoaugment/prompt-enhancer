@@ -56,6 +56,13 @@ claude plugin install prompt-enhancer@santi-mods --scope user
 claude plugin test .
 ```
 
-The tests (`hooks/*.test.ts`) cover `/enhance`, both band buttons, the empty-draft guard and stacking with other mods' bands.
+The 12 tests in `tests/register.test.ts` cover:
+
+- **`/enhance`:** the rewrite lands in the box, usage with no draft, printing the rewrite when the box can't take it, a failed rewrite, and the request itself (Sonnet, low effort, the draft wrapped as text to rewrite)
+- **The band:** both buttons on terminal and desktop, *Enhancing prompt…* while it works, Enhance & send, the empty-draft guard, a failed rewrite keeping the draft, stacking with other mods' bands, and hiding during a survey
 
 To ship a change: run the tests, bump the version in `.claude-plugin/plugin.json`, commit, tag `v<version>` and push it, then run `claude plugin marketplace update santi-mods` and `claude plugin update prompt-enhancer@santi-mods`.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
